@@ -763,6 +763,9 @@ hi link CocInfoSign MoreMsg
 hi link CocInfoFloat Pmenu
 hi link CocHintFloat Directory
 hi link CocHintFloat Pmenu
+" neovim float
+hi NormalFloat guibg=none
+hi FloatBorder guibg=none
 
 " ============================================================================
 " Preset Commands:
