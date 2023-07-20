@@ -133,7 +133,7 @@ endif
 if exists("g:lucius_style")
     let s:style = g:lucius_style
 else
-    let s:style = &background
+    let s:style = "light"
 endif
 
 if exists("g:lucius_contrast")
@@ -763,9 +763,18 @@ hi link CocInfoSign MoreMsg
 hi link CocInfoFloat Pmenu
 hi link CocHintFloat Directory
 hi link CocHintFloat Pmenu
-" neovim float
+
+" neovim float:
 hi NormalFloat guibg=none
 hi FloatBorder guibg=none
+
+" neovim lsp:
+hi LspReferenceRead guibg=#dadada
+hi link LspReferenceWrite LspReferenceRead
+hi link LspReferenceText LspReferenceRead
+
+" neovim treesitter
+hi link @symbol Constant
 
 " ============================================================================
 " Preset Commands:
@@ -804,5 +813,4 @@ command! LuciusBlackLowContrast call SetLucius("dark", "low", "high")
             \ | colorscheme lucius
 command! LuciusBlackHighContrast call SetLucius("dark", "high", "high")
             \ | colorscheme lucius
-
 " vim: tw=78
