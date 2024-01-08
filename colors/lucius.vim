@@ -126,7 +126,7 @@
 
 unlet! g:colors_name
 hi clear
-runtime colors/vim.vim
+runtime colors/vim.lua
 if exists("syntax_on")
     syntax reset
 endif
