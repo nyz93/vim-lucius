@@ -631,7 +631,9 @@ endif
 hi DiffAdd      guifg=fg
 hi DiffChange   guifg=fg
 hi DiffDelete   guifg=fg
-
+hi link diffAdded DiffAdd
+hi link diffRemoved DiffDelete
+hi link diffChanged DiffChange
 if s:style == "light"
     hi DiffAdd                      guibg=#afd7af
     hi DiffChange                   guibg=#d7d7af
