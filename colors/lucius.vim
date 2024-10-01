@@ -226,6 +226,7 @@ hi link LspReferenceText LspReferenceRead
 
 " neovim treesitter
 hi link @symbol Constant
+hi link @lsp.type.property Special
 " neovim diagnotics
 hi DiagnosticFloatingError guibg=#dadada
 hi DiagnosticFloatingHint guibg=#dadada
