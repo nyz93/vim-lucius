@@ -227,6 +227,14 @@ hi link LspReferenceText LspReferenceRead
 " neovim treesitter
 hi link @symbol Constant
 hi link @lsp.typemod.property.declaration Special
+hi link @lsp.type.variable Normal
+
+hi link @punctuation Normal
+hi link @variable Normal
+hi link @type.builtin Type
+hi link @tag.delimiter.tsx Statement
+hi link @tag.tsx Type
+hi link @tag.builtin.tsx Type
 " neovim diagnotics
 hi DiagnosticFloatingError guibg=#dadada
 hi DiagnosticFloatingHint guibg=#dadada
