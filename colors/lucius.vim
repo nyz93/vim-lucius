@@ -216,7 +216,7 @@ for s:item in s:undercurl_items
 endfor
 
 " neovim float:
-hi NormalFloat guibg=none
+hi link NormalFloat ColorColumn
 hi FloatBorder guibg=none
 
 " neovim lsp:
