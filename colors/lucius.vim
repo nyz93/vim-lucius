@@ -247,4 +247,10 @@ for _, diag in ipairs({"Error", "Hint", "Info", "Ok", "Warn"}) do
     attrs.bg = "#dddddd"
     vim.api.nvim_set_hl(0, "DiagnosticVirtualText" .. diag, attrs)
 end
+vim.api.nvim_set_hl(0, 'DapUIPlayPause', { fg = 'green' })
+vim.api.nvim_set_hl(0, 'DapUIPlayPauseNC', { fg = 'green' })
+
+vim.api.nvim_set_hl(0, 'DapUIRestart', { fg = 'green' })
+vim.api.nvim_set_hl(0, 'DapUIRestartNC', { fg = 'green' })
+vim.api.nvim_set_hl(0, 'CmpDocs', { bg = '#dddddd' })
 END
