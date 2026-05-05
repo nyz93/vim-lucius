@@ -44,13 +44,13 @@ let s:normal_items = [
             \ "IncSearch", "LineNr", "MatchParen", "ModeMsg", "MoreMsg",
             \ "NonText", "Pmenu", "PmenuSbar", "PmenuSel",
             \ "PmenuThumb", "PreProc", "Question", "Search", "SignColumn",
-            \ "Special", "SpecialKey", "Statement", "StatusLineNC", "TabLine",
+            \ "Special", "SpecialKey", "Statement", "StatusLine", "StatusLineNC", "TabLine",
             \ "TabLineFill", "Todo", "Type", "VertSplit", "Visual",
             \ "WarningMsg", "WildMenu",
             \ ]
 
 let s:bold_items = [
-            \ "DiffText", "FoldColumn", "Folded", "StatusLine", "TabLineSel",
+            \ "DiffText", "FoldColumn", "Folded", "TabLineSel",
             \ "Title", "CursorLineNr",
             \ ]
 
